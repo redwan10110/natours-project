@@ -173,7 +173,84 @@ div {
 }
 ```
 
+## Specify the fill-mode For an Animation
+
+CSS animations do not affect an element before the first keyframe is played or after the last keyframe is played. The animation-fill-mode property can override this behavior.
+
+The animation-fill-mode property specifies a style for the target element when the animation is not playing (before it starts, after it ends, or both).
+
+
+
 https://www.w3schools.com/css/css3_animations.asp
 
 
+<br>
+<br>
 
+# CSS Transitions
+
+CSS transitions allows you to change property values smoothly, over a given duration.
+
+## Transitions properties:
+
++ transition
++ transition-delay
++ transition-duration
++ transition-property
++ transition-timing-function
+
+To create a transition effect, you must specify two things:
+
++ the CSS property you want to add an effect to
++ the duration of the effect
+
+**Note**: If the duration part is not specified, the transition will have no effect, because the default value is 0.
+
+The following example shows a 100px * 100px red <div> element. The <div> element has also specified a transition effect for the width property, with a duration of 2 seconds:
+
+```css
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+```
+The transition effect will start when the specified CSS property (width) changes value.
+
+Now, let us specify a new value for the width property when a user mouses over the <div> element:
+
+```css
+div:hover {
+  width: 300px;
+}
+```
+
+## Specify the Speed Curve of the Transition
+https://www.w3schools.com/css/css3_transitions.asp#:~:text=Specify%20the%20Speed%20Curve%20of%20the%20Transition
+
+
+
+<br>
+<br>
+
+# CSS 2D Transforms
+
+CSS transforms allow you to move, rotate, scale, and skew elements.
+
++ translate()
++ rotate()
++ scaleX()
++ scaleY()
++ scale()
++ skewX()
++ skewY()
++ skew()
++ matrix()
+
+## The translate() Method
+
+The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).
+
+https://www.w3schools.com/css/css3_2dtransforms.asp
