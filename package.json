@@ -1,0 +1,26 @@
+{
+  "name": "natours-project",
+  "version": "1.0.0",
+  "description": "Landing page for Natours Project",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redwan10110/natours-project.git"
+  },
+  "keywords": [
+    "Landing",
+    "page"
+  ],
+  "author": "Redwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redwan10110/natours-project/issues"
+  },
+  "homepage": "https://github.com/redwan10110/natours-project#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

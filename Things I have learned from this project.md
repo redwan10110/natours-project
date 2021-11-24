@@ -254,3 +254,20 @@ CSS transforms allow you to move, rotate, scale, and skew elements.
 The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).
 
 https://www.w3schools.com/css/css3_2dtransforms.asp
+
+
+<br>
+<br>
+# The Clearfix 
+
+
+
+<br>
+<br>
+
+# attribute selector 
+
++ all the class start with col : [class^="col-"]{}
++ all the class end with col : [class$="col-"]{}
++ all the class contain col : [class*="col-"]{}
+
