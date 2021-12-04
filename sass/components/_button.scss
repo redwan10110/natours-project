@@ -1,6 +1,6 @@
 
 .btn {
-
+    &,
     &:link,
     &:visited{
       text-transform: uppercase;
@@ -10,12 +10,15 @@
       border-radius: 10rem;
       transition: all .2s;
       position: relative;
+
+      border: none;
+      cursor: pointer;
   
     }  
     
   
   
-  
+    
     &:hover{
       transform: translateY(-.3rem);
       box-shadow: 0 1rem 2rem rgba($color-black,.2);
@@ -25,7 +28,9 @@
           opacity: 0;
         }
     }
+    &:focus,
     &:active{
+      outline: none;
       transform: translateY(-.1rem);
       box-shadow: (0 .5rem 1rem rgba($color-black,.2));
     }
@@ -36,6 +41,15 @@
   
       &::after{
           background-color: $color-white;
+        }
+    }
+
+    &--green{
+      background-color: $color-primary-dark;
+      color: $color-white;
+  
+      &::after{
+          background-color: $color-primary-dark;
         }
     }
     
